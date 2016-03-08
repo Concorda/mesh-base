@@ -1,0 +1,25 @@
+{
+  "name": "mesh-base",
+  "version": "0.0.1",
+  "description": "Mesh base",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Concorda/mesh-base.git"
+  },
+  "keywords": [
+    "mesh",
+    "concorda",
+    "seneca",
+    "user"
+  ],
+  "author": "Mircea Alexandru (http://alexandrumircea.ro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Concorda/mesh-base/issues"
+  },
+  "homepage": "https://github.com/Concorda/mesh-base#readme"
+}
