@@ -1,25 +1,30 @@
 {
-  "name": "mesh-base",
-  "version": "0.0.1",
-  "description": "Mesh base",
+  "name": "seneca-mesh-base",
+  "version": "0.0.2",
+  "description": "Seneca Mesh base",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Concorda/mesh-base.git"
+    "url": "git+https://github.com/Concorda/seneca-mesh-base.git"
   },
   "keywords": [
     "mesh",
-    "concorda",
     "seneca",
     "user"
   ],
   "author": "Mircea Alexandru (http://alexandrumircea.ro)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Concorda/mesh-base/issues"
+    "url": "https://github.com/Concorda/seneca-mesh-base/issues"
   },
-  "homepage": "https://github.com/Concorda/mesh-base#readme"
+  "homepage": "https://github.com/Concorda/seneca-mesh-base#readme",
+  "dependencies": {
+    "seneca-balance-client": "^0.2.0",
+    "seneca-load-balancer": "0.0.1",
+    "seneca-mesh": "^0.5.0"
+  }
 }
